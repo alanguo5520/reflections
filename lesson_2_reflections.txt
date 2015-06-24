@@ -1,0 +1,3 @@
+When you initialize a repository using git init, it creates a .git file and has no commits. You need to do it to collaborate using git in that file.
+
+The staging area is an intermediate step between the working directory and the repository. It's different from the working directory in that it is a copy that can be committed, but its not in the repository because it hasn't been committed yet. Having a staging area allows you to control exactly what you want to commit at a single time.
