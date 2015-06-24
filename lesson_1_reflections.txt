@@ -1,0 +1,23 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+By viewing a diff, I could directly see where and what the differences were in the two files. It made my life easier by comparing the two files and checking for the differences so that I didn't have to visually compare them myself.
+
+___
+
+Having easy access to the entire history of a file makes me a more efficient programmer in the long term because if I make mistakes, I can easily debug and find those mistakes using previously saved versions. Having the file histories allows me to easily check my work and allows me to be more confident in trying new changes.
+
+___
+
+Manually choosing when to create a commit is good so you can control your own logical flow. Having automatically saved versions is convenient if you are forgetful and edit frequently and regularly. However, automatically saving will create 
+
+___
+
+They allow saving multiple files in one commit so that you can keep versions of whole files together if more convenient.
+
+___
+
+You can type in git log to see a history of commits. It shows commit id, date, author, and notes. Git diff can compare different commits using ids.
+
+___
+
+Version control might make me more confident to make changes that could break something because I know I can also look back into my history and find the older working versions.
