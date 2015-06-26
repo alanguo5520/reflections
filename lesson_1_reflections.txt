@@ -21,3 +21,7 @@ You can type in git log to see a history of commits. It shows commit id, date, a
 ___
 
 Version control might make me more confident to make changes that could break something because I know I can also look back into my history and find the older working versions.
+
+___
+
+I want to try using Git for saving versions of applications for easy collaboration.

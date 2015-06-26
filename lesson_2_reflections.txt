@@ -1,3 +1,13 @@
 When you initialize a repository using git init, it creates a .git file and has no commits. You need to do it to collaborate using git in that file.
 
 The staging area is an intermediate step between the working directory and the repository. It's different from the working directory in that it is a copy that can be committed, but its not in the repository because it hasn't been committed yet. Having a staging area allows you to control exactly what you want to commit at a single time.
+
+I can use the staging area to make sure I have one commit per logical change my comparing the staging area with the workspace or the commit logs using git diff.
+
+Branches would be helpful if you need to test out an experimental version of something. You could branch out the experimental code and work on that experimental version separately from a known working version.
+
+Diagrams help me visualize the branch structure by showing me what branches contain which commits and also where you could lose a branch.
+
+The result of merging two branches together is combining the heads of the branches and having both paths merged. It is represented as a single node connecting the heads of both paths because that's what it does.
+
+Automatic merging is good because it is quick. Merging manually allows you to decide what to have in your final merged commit, so that you don't have conflicts.
