@@ -12,3 +12,11 @@ A fork is when you copy a git repository within GitHub only. A clone is when you
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 So that you can easily access without internet the last known state and work on it.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without git I would have to send files via e-mail or dropbox and manually keep track of versions. It would be much harder to track updates and new versions of code.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You want to make changes in a separate branch rather than in master when you want to experiment with changes. You can then merge it into your master branch when you know your changes work well.
